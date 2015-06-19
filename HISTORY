@@ -1,0 +1,32 @@
+
+-- Carlos Y'a~nez Stange -- cyanezstange@gmail.com -
+
+
+----- TO DO list.
+- Escribir constructores para tener un Graph por defecto.
+- Mapeo sobre "id"s e 'indices para optimizar algoritmos.
+- Sobirecargar operadores para implementar algunos algoritmos.
+- Funciones para escribir archivos.
+- Verificar Formatos.
+- ... y errores en general.
+
+----- Posible TO DO list.
+- Colores en los nodos.
+- Pesos en las aristas.
+- V'ertices dirigidos.
+- Graph_path como resultado del algoritmo de Dijkstra.
+
+
+----- Historial.
+- 26.06.2014
+Primer esbozo de la clase Graph: 
+Incluye strucs "node" y "edge", los vectores "edges", "nodes" y "M", y "dim".
+"read_matrix()", "read_matrix_file()", "read_sigmajs_json()", "read_sigmajs_json_file()",
+y los strings para output "matrix" y "sigmajs_json".
+
+- 27.06.2014
+Implementado todo lo anterior. Se a~nadieron funciones "density()", "grade()" y "changeSizesByGrade()".
+Segmentation fault de la muerte impide avanzar.
+
+- 28.06.2014
+Arreglado bug anterior.
