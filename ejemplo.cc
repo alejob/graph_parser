@@ -2,7 +2,7 @@
 
 // Compilo usando:
 //
-//  g++ -std=c++11 -ljsoncpp -o ejemplo ejemplo.cc graph_parser.cc
+//  g++ -std=c++11 -o ejemplo ejemplo.cc graph_parser.cc -ljsoncpp 
 //
 
 
